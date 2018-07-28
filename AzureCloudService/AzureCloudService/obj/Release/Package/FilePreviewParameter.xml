@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="AzureCloudService20180727072217" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\Dropbox\\All\ my\ things\\MVP\\Contribuciones\\Material\\DevOps\\Integración\ Continua\\AzureCloudService\\AzureCloudService\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^E:\\Dropbox\\All\ my\ things\\MVP\\Contribuciones\\Material\\DevOps\\Integración\ Continua\\AzureCloudService\\AzureCloudService\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="server=mysqlsever.mysql.database.azure.com;user id=vmoreno@mysqlsever;database=devicesdb" tags="">
+    <parameterEntry kind="XmlFile" scope="E:\\Dropbox\\All\ my\ things\\MVP\\Contribuciones\\Material\\DevOps\\Integración\ Continua\\AzureCloudService\\AzureCloudService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
